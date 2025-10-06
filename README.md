@@ -21,10 +21,7 @@ npm run dev
 
 ## 🔗 Endpoints usados
 
-GET /pokemon?offset=&limit= — lista paginada (nomes/URLs)
-
-GET /pokemon/{id|name} — detalhes (sprites, tipos, stats, medidas)
-
-GET /pokemon-species/{id|name} — descrição e URL da cadeia de evolução
-
-GET {evolution_chain.url} — árvore de evolução (recursiva)
+- GET /pokemon?offset=&limit= — lista paginada (nomes/URLs)
+- GET /pokemon/{id|name} — detalhes (sprites, tipos, stats, medidas)
+- GET /pokemon-species/{id|name} — descrição e URL da cadeia de evolução
+- GET {evolution_chain.url} — árvore de evolução (recursiva)
